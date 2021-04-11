@@ -51,8 +51,8 @@ router.get('/repoTakenetCSharp', async (req, res) => {
                     "type": "application/vnd.lime.media-link+json",
                     "value":
                     {
-                        "title": `Título:${item.full_name} `,
-                        "text": `Subtítulo:${item.description} `,
+                        "title": `${item.full_name} `,
+                        "text": `${item.description} `,
                         "type": "image/jpg",
                         "uri": `${item.owner.avatar_url}`
                     }
