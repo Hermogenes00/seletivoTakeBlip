@@ -120,7 +120,7 @@ router.get('/repoTakenetCSharp', async (req, res) => {
         let fullCarousel = {
             id: "" + Date.now(),
             type: "application/vnd.lime.collection+json",
-            to: "128271320123982@messenger.gw.msging.net",
+            to: "{{agent.mail}}@messenger.gw.msging.net",
             content: {
                 itemType: "application/vnd.lime.document-select+json",
                 items
