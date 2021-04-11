@@ -9,6 +9,6 @@ app.get('/', (req, res) => {
     res.json({})
 })
 
-app.listen(process.env.PORT || 3000, () => {
-    console.log(`Rodando na porta ${process.env.PORT}`)
+app.listen(process.env.PORT || 3000, "0.0.0.0", () => {
+    console.log(`Rodando na porta ${process.env.PORT || 3000}`)
 })
