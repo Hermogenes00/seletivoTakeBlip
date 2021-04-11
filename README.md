@@ -10,10 +10,10 @@ Projeto desenvolvido para o processo de seleção da Take Blip
 ### Prints
 <hr>
 ChatBot Blip
-<img src = "https://github.com/Hermogenes00/seletivoTakeBlip/blob/master/prints/chatBot.png"/>
+<img src = "https://github.com/Hermogenes00/seletivoTakeBlip/blob/master/prints/chatBot.png" width="300" height="500"/>
 
 ChatBot Messenger @Testetakeblip
-<img src = "https://github.com/Hermogenes00/seletivoTakeBlip/blob/master/prints/messengerBot.jpeg"/>
+<img src = "https://github.com/Hermogenes00/seletivoTakeBlip/blob/master/prints/messengerBot.jpeg" width="300" height="500"/>
 
 ChatBot Telegram @netotakeblip_bot
-<img src = "https://github.com/Hermogenes00/seletivoTakeBlip/blob/master/prints/telegramBot.jpeg"/>
+<img src = "https://github.com/Hermogenes00/seletivoTakeBlip/blob/master/prints/telegramBot.jpeg" width="300" height="500"/>
