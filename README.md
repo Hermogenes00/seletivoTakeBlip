@@ -9,6 +9,7 @@ Projeto desenvolvido para o processo de seleção da Take Blip
 
 ### Prints
 <hr>
+
 ChatBot Blip
 <img src = "https://github.com/Hermogenes00/seletivoTakeBlip/blob/master/prints/chatBot.png" width="300" height="500"/>
 
