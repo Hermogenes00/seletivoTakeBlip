@@ -56,24 +56,8 @@ router.get('/repoTakenetCSharp', async (req, res) => {
                         "type": "image/jpg",
                         "uri": `${item.owner.avatar_url}`
                     }
-                },
-                options:
-                    [
-                        {
-                            label:
-                            {
-                                "type": "text/plain",
-                                "value": "First option"
-                            }
-                        },
-                        {
-                            label:
-                            {
-                                "type": "text/plain",
-                                "value": "Second option"
-                            }
-                        }
-                    ]
+                }
+                
             })
         })
 
