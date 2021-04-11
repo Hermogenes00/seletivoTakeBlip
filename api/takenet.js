@@ -2,11 +2,6 @@ const express = require('express')
 const router = express.Router()
 const axios = require('axios')
 
-const token = {
-
-}
-
-
 let body = {
     itemType: "application/vnd.lime.document-select+json",
     items: []
@@ -63,10 +58,6 @@ router.get('/repoTakenetCSharp', async (req, res) => {
     }
 })
 
-
-router.get('/cards', (req, res) => {
-    res.json(body)
-})
 
 
 
