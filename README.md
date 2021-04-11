@@ -8,3 +8,4 @@ Projeto desenvolvido para o processo de seleção da Take Blip
 #### Bot telegram: @netotakeblip_bot
 
 ### Prints
+<hr>
