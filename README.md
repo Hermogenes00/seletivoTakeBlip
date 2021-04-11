@@ -6,3 +6,5 @@ Projeto desenvolvido para o processo de seleção da Take Blip
 #### Foi utilizado também outras plataformas para testes, além da plataforma nativa (chatbot da blip)
 #### Página do facebook: @Testetakeblip
 #### Bot telegram: @netotakeblip_bot
+
+### Prints
