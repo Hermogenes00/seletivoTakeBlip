@@ -12,17 +12,12 @@ let body = {
     items: []
 }
 
-let items = []
-
-
 router.get('/repoTakenetCSharp', async (req, res) => {
 
+    body.items = []
+
     try {
-        let response = await axios.get("https://api.github.com/orgs/takenet/repos?per_page=100", {
-            headers: {
-                'Authorization': `Basic ${token}`
-            }
-        })
+        let response = await axios.get("https://api.github.com/orgs/takenet/repos?per_page=100")
 
         //Pego todos os repositórios referente a conta takenet
         let repositories = response.data
@@ -57,7 +52,7 @@ router.get('/repoTakenetCSharp', async (req, res) => {
                         "uri": `${item.owner.avatar_url}`
                     }
                 }
-                
+
             })
         })
 
