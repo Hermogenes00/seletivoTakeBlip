@@ -2,11 +2,17 @@ const express = require('express')
 const router = express.Router()
 const axios = require('axios')
 
+const token = {
 
+} 
 router.get('/repoTakenetCSharp', async (req, res) => {
-    //https://api.github.com/users/takenet/repos
+
     try {
-        let response = await axios.get("https://api.github.com/users/takenet/repos")
+        let response = await axios.get("https://api.github.com/orgs/takenet/repos?per_page=100", {
+            headers: {
+                'Authorization': `Basic ${token}`
+            }
+        })
 
         //Pego todos os repositórios referente a conta takenet
         let repositories = response.data
